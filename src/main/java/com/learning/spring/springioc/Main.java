@@ -15,8 +15,6 @@ public class Main {
 		SpringIoc springIocFromBeanFactory = (SpringIoc) beanFactory.getBean("springIoc");
 		SpringIoc springIocFromApplicationContext = (SpringIoc) applicationContext.getBean("springIoc");
 
-
-
 		springIocFromBeanFactory.hellIoc();
 		springIocFromApplicationContext.hellIoc();
 	}
